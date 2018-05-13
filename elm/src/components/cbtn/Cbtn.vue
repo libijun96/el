@@ -42,20 +42,4 @@
         color:rgb(147,153,159);
         transform:translateY(-5px);
     }
-    .ball{
-        position: fixed;
-        left: 0px;
-        bottom:3rem;
-        z-index: 1000;
-        /*贝塞尔曲线*/
-        transition: all 0.4s cubic-bezier(0.49, -0.29, 0.75, 0.41); 
-        border:1px solid red;
-    }
-    .inner{
-        width: 16px;
-        height: 16px;
-        border-radius: 50%;
-        background-color: rgb(0,160,220);
-        transition: all 0.4s linear;
-    }
 </style>
